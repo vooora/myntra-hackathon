@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffefef;
+    /* background: linear-gradient(to bottom, #ffefef, #ffe3e3); */
+  
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    aspect-ratio: 3;
+    /* width: 100%;
+    height: 50vw; */
+    display: block;
+    font-weight: 100;
+  }
+  
+  .whiteebox {
+   
+    width: 30%;
+    height: 1100px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  h2 {
+    color: #676767;
+    margin-top: 20px;
+    font: 900 60px Roboto, sans-serif;
+    text-align: center;
+    margin-bottom: 140px;
+  }
+  
+  .input-group {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .input-with-unit {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-with-unit input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-right: 10px;
+    font-size: 30px;
+  }
+  
+  .input-with-unit select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: white;
+    font-size: 30px;
+  }
+  
+  .calculate-button {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 35px;
+    cursor: pointer;
+    margin-top: 60px;
+  }
+  
+  .calculate-button:hover {
+    background-color: #ff1c63;
+  }
+  
+  .continuee-button {
+    width: 100%;
+    height: max-content;
+    background-color: #ff007f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  .random{
+    margin-top:80px;
+    font-size: 40px;
+  }
+  .tri-img{
+    width: 600px;
+    height: auto;
+
+  }
+  .continuee-button:hover {
+    background-color: #e60072;
+  }
+  
+  /* @media (max-width: 768px) {
+    h2 {
+      font-size: 24px;
+    }
+  
+    .input-group label {
+      font-size: 14px;
+    }
+  
+    .input-with-unit input, .input-with-unit select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .calculate-button {
+      font-size: 18px;
+      padding: 12px;
+    }
+  
+    .continue-button {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  }
+   */

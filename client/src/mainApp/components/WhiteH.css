@@ -1,0 +1,30 @@
+.brandlogo {
+  width: 15%;
+  height: 15%;
+}
+.brandlogo{
+  /* margin-left: 3%; */
+}
+.dwd {
+  margin-right: 50%;
+}
+
+.searchbarsb{
+display:flex;
+justify-content: space-around;
+align-tems: center;
+/* width:38ch; */
+
+
+}
+.input-box{
+  padding: auto;
+  width:38ch; 
+  height: 6em;
+
+  /* width: 25ch; */
+  /* margin-right: 1vw; */
+}
+.searchbarsb .input-box::placeholder {
+  font-size: 1vw; /* Adjust the font size to your preference */
+}

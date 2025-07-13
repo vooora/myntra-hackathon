@@ -1,0 +1,55 @@
+body {
+    background-color: #ffe6e6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .hourglass-container {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .hourglass-image-container {
+    margin: 20px 0;
+  }
+  
+  .hourglass-image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .hourglass-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hourglass-yes-button {
+    background-color: #ff4081;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .hourglass-next-button {
+    background-color: #6200ea;
+    color: white;
+  }
+  
